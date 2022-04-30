@@ -10,13 +10,9 @@ public class Actor {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("Actor [lastName=");
-		builder.append(lastName);
-		builder.append(", firstName=");
 		builder.append(firstName);
-		builder.append(", id=");
-		builder.append(id);
-		builder.append("]");
+		builder.append(" ");
+		builder.append(lastName);
 		return builder.toString();
 	}
 	public Actor( int id, String lastName, String firstName) {
